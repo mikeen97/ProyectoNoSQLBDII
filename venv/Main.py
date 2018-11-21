@@ -27,11 +27,49 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
        self.bt_Laboratorio_agregar.clicked.connect(self.agregarLaboratorio)
        #Agregar Productos
        self.bt_Producto_agregar.clicked.connect(self.agregarProductos)
+       # AgregarFarmacia
+       #self.bt_Farmacia_Agregar.clicked.connect(self.agregarFarmacia)
        #prueba eliminar
        self.bt_Producto_Eliminar.clicked.connect(self.delete)
+       # eliminar Farmaceutico
+       self.bt_Farmaceutico_Eliminar.clicked.connect(self.AccionEliminarFarmaceutico)
+       # eliminar Propietario
+       self.bt_propietario_Eliminar.clicked.connect(self.AccionEliminarPropietario)
+       # eliminar Productos
+       self.bt_Producto_Eliminar.clicked.connect(self.AccionEliminarProducto)
+       # eliminar Laboratorio
+       self.bt_Laboratorio_Eliminar.clicked.connect(self.AccionEliminarLaboratorio)
+       # eliminar Farmacias
+       self.bt_Farmacia_Eliminar.clicked.connect(self.AccionEliminarFarmacia)
+
+
 
    def delete(self):
-        doc= db['1322']
+       doc = db['1322']
+       db.delete(doc)
+
+   def AccionEliminarFarmaceutico(self):
+        doc=db [self.tf_Farmaceutico_id.text()]
+        db.delete(doc)
+
+   def AccionEliminarPropietario(self):
+        doc=db [self.tf_propietario_id.text()]
+        db.delete(doc)
+
+   def AccionEliminarProducto(self):
+        doc=db [self.tf_Producto_id.text()]
+        db.delete(doc)
+
+   def AccionEliminarLaboratorio(self):
+        doc=db [self.tf_Laboratorio_id.text()]
+        db.delete(doc)
+
+   def AccionEliminarFarmacia(self):
+        doc=db [self.tf_Farmacia_codigoFarm.text()]
+        db.delete(doc)
+
+   def agregarFarmacia(self):
+        doc=db [self.tf_Farmacia_codigoFarm.text()]
         db.delete(doc)
 
 
@@ -64,11 +102,31 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         id= self.tf_Laboratorio_id.text()
         nombre=self.tf_Laboratorio_nombre.text()
 
+        doc = {
+                '_id': id,
+                'content': {
+                            'nombre': nombre
+                           }
+        }
+        db.save(doc)
+
    def agregarPropietario(self):
         id= self.tf_propietario_id.text()
         nombre=self.tf_propietario_nombre.text()
-        direccion =self.tf_propietario_direccion.text()
+        direccion=self.tf_propietario_direccion.text()
         edad=self.tf_propietario_edad.text()
+        persona=("Propietario")
+
+        doc = {
+            '_id': id,
+            'content': {
+                        'nombre': nombre,
+                        'direccion': direccion,
+                        'edad': edad,
+                        'persona':persona
+                        }
+        }
+        db.save(doc)
 
 
    def agregarFarmaceutico(self):
@@ -76,6 +134,18 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         nombre=self.tf_Farmaceutico_nombre.text()
         direccion =self.tf_Farmaceutico_direccion.text()
         edad=self.tf_Farmaceutico_edad.text()
+        persona=("Farmaceutico")
+
+        doc = {
+            '_id': id,
+            'content': {
+                        'nombre': nombre,
+                        'direccion': direccion,
+                        'edad': edad,
+                        'persona':persona
+                        }
+        }
+        db.save(doc)
 
 
 
