@@ -43,7 +43,7 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>50</y>
+     <y>60</y>
      <width>751</width>
      <height>771</height>
     </rect>
@@ -68,7 +68,7 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
       </rect>
      </property>
      <property name="currentIndex">
-      <number>1</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="tab_4">
       <attribute name="title">
@@ -133,8 +133,8 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
       <widget class="QPushButton" name="bt_Farmacia_Cancelar">
        <property name="geometry">
         <rect>
-         <x>360</x>
-         <y>450</y>
+         <x>320</x>
+         <y>530</y>
          <width>101</width>
          <height>41</height>
         </rect>
@@ -201,8 +201,8 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
       <widget class="QPushButton" name="bt_Farmacia_Agregar">
        <property name="geometry">
         <rect>
-         <x>230</x>
-         <y>450</y>
+         <x>160</x>
+         <y>460</y>
          <width>111</width>
          <height>41</height>
         </rect>
@@ -294,6 +294,45 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
        </property>
        <property name="indent">
         <number>0</number>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bt_Farmacia_Modificar">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>460</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Modificar</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bt_Farmacia_Eliminar">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>460</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Eliminar</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bt_FindFarmacia">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>140</y>
+         <width>121</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Buscar Farmacia</string>
        </property>
       </widget>
      </widget>
@@ -487,8 +526,8 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
     <widget class="QPushButton" name="bt_Farmaceutico_cancelar">
      <property name="geometry">
       <rect>
-       <x>410</x>
-       <y>390</y>
+       <x>320</x>
+       <y>480</y>
        <width>101</width>
        <height>41</height>
       </rect>
@@ -500,7 +539,7 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
     <widget class="QPushButton" name="bt_Farmaceutico_agregar">
      <property name="geometry">
       <rect>
-       <x>210</x>
+       <x>160</x>
        <y>390</y>
        <width>111</width>
        <height>41</height>
@@ -508,6 +547,45 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
      </property>
      <property name="text">
       <string>Agregar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_Farmaceutico_Modificar">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>390</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Modificar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_Farmaceutico_Eliminar">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>390</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Eliminar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_FindFarmaceutico">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>120</y>
+       <width>161</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Buscar Farmaceutico</string>
      </property>
     </widget>
    </widget>
@@ -626,8 +704,8 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
     <widget class="QPushButton" name="bt_propietario_cancelar">
      <property name="geometry">
       <rect>
-       <x>380</x>
-       <y>350</y>
+       <x>320</x>
+       <y>430</y>
        <width>101</width>
        <height>41</height>
       </rect>
@@ -639,7 +717,7 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
     <widget class="QPushButton" name="bt_propietario_agregar">
      <property name="geometry">
       <rect>
-       <x>250</x>
+       <x>150</x>
        <y>350</y>
        <width>111</width>
        <height>41</height>
@@ -647,6 +725,45 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
      </property>
      <property name="text">
       <string>Agregar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_propietario_Modificar">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>350</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Modificar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_propietario_Eliminar">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>350</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Eliminar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_FindPropietario">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>120</y>
+       <width>161</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Buscar Propietario</string>
      </property>
     </widget>
    </widget>
@@ -664,7 +781,7 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
       </rect>
      </property>
      <property name="currentIndex">
-      <number>1</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="tab_6">
       <attribute name="title">
@@ -735,10 +852,10 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
       <widget class="QPushButton" name="bt_Laboratorio_agregar">
        <property name="geometry">
         <rect>
-         <x>210</x>
+         <x>150</x>
          <y>240</y>
-         <width>97</width>
-         <height>27</height>
+         <width>121</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="text">
@@ -748,14 +865,53 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
       <widget class="QPushButton" name="bt_Laboratorio_cancelar">
        <property name="geometry">
         <rect>
-         <x>420</x>
-         <y>240</y>
-         <width>97</width>
-         <height>27</height>
+         <x>300</x>
+         <y>320</y>
+         <width>151</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="text">
         <string>Cancelar</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bt_Laboratorio_Modificar">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>240</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Modificar</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bt_Laboratorio_Eliminar">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>240</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Eliminar</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bt_FindLaboratorio">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>110</y>
+         <width>161</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Buscar Laboratorio</string>
        </property>
       </widget>
      </widget>
@@ -851,10 +1007,10 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
       <widget class="QPushButton" name="bt_Laboratorio_AgregarProducto">
        <property name="geometry">
         <rect>
-         <x>410</x>
+         <x>290</x>
          <y>300</y>
          <width>151</width>
-         <height>27</height>
+         <height>41</height>
         </rect>
        </property>
        <property name="text">
@@ -987,8 +1143,8 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
      <property name="geometry">
       <rect>
        <x>40</x>
-       <y>440</y>
-       <width>271</width>
+       <y>490</y>
+       <width>261</width>
        <height>20</height>
       </rect>
      </property>
@@ -1015,8 +1171,8 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
     <widget class="QPushButton" name="bt_Producto_cancelar">
      <property name="geometry">
       <rect>
-       <x>350</x>
-       <y>510</y>
+       <x>330</x>
+       <y>670</y>
        <width>101</width>
        <height>41</height>
       </rect>
@@ -1028,8 +1184,8 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
     <widget class="QPushButton" name="bt_Producto_agregar">
      <property name="geometry">
       <rect>
-       <x>220</x>
-       <y>510</y>
+       <x>130</x>
+       <y>590</y>
        <width>111</width>
        <height>41</height>
       </rect>
@@ -1041,9 +1197,9 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
     <widget class="QComboBox" name="cb_Producto_TieneProteccion">
      <property name="geometry">
       <rect>
-       <x>340</x>
-       <y>430</y>
-       <width>101</width>
+       <x>330</x>
+       <y>490</y>
+       <width>151</width>
        <height>27</height>
       </rect>
      </property>
@@ -1057,6 +1213,91 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
        <string>NO</string>
       </property>
      </item>
+    </widget>
+    <widget class="QLineEdit" name="tf_Producto_Categoria">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>370</y>
+       <width>158</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_36">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>370</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Categoria</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_37">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>410</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Descripcion del Producto</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="tf_Producto_DescripcionProducto">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>410</y>
+       <width>251</width>
+       <height>75</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_Producto_Modificar">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>590</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Modificar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_Producto_Eliminar">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>590</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Eliminar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_FindProducto">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>130</y>
+       <width>161</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Buscar Producto</string>
+     </property>
     </widget>
    </widget>
   </widget>
