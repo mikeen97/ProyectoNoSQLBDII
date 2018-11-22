@@ -49,7 +49,7 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
     </rect>
    </property>
    <property name="currentIndex">
-    <number>4</number>
+    <number>0</number>
    </property>
    <widget class="QWidget" name="tabCrudFarmacias">
     <property name="toolTip">
@@ -61,14 +61,14 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
     <widget class="QTabWidget" name="tb_agregarFarmacia">
      <property name="geometry">
       <rect>
-       <x>-10</x>
+       <x>0</x>
        <y>0</y>
        <width>741</width>
        <height>741</height>
       </rect>
      </property>
      <property name="currentIndex">
-      <number>2</number>
+      <number>1</number>
      </property>
      <widget class="QWidget" name="tab_4">
       <attribute name="title">
@@ -554,19 +554,6 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
          <width>721</width>
          <height>551</height>
         </rect>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>20</y>
-         <width>161</width>
-         <height>27</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Agregar Producto</string>
        </property>
       </widget>
      </widget>
@@ -2510,29 +2497,6 @@ font: italic 24pt &quot;Ubuntu&quot;;</string>
        </property>
        <property name="text">
         <string>LOAD</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="tf_codlaboratorio">
-       <property name="geometry">
-        <rect>
-         <x>40</x>
-         <y>170</y>
-         <width>131</width>
-         <height>27</height>
-        </rect>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_92">
-       <property name="geometry">
-        <rect>
-         <x>40</x>
-         <y>130</y>
-         <width>131</width>
-         <height>26</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Codigo Laboratorio</string>
        </property>
       </widget>
      </widget>
